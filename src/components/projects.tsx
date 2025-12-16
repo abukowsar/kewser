@@ -114,7 +114,10 @@ export default function Projects() {
         </div>
       {/* View All Button */}
           <div className="text-center mt-12">
-            <button className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-xl font-semibold hover:bg-primary/90 transition-all duration-300 hover:shadow-xl hover:shadow-primary/25 hover:scale-105">
+            <a 
+              href="/portfolio"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-xl font-semibold hover:bg-primary/90 transition-all duration-300 hover:shadow-xl hover:shadow-primary/25 hover:scale-105"
+            >
               View More Projects
               <svg
                 className="w-5 h-5"
@@ -129,7 +132,7 @@ export default function Projects() {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </button>
+            </a>
           </div>
       </section>
       <ImageLightbox
